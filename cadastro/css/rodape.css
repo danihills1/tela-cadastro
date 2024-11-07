@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: rgb(255, 255, 255);
+    --color-neutral-30: hsl(0, 0%, 0%);
+    --color-neutral-40: #000000;
+
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+main {
+    height: 80vh;
+}
+
+
+@media screen and (max-width: 1640px){
+    .img-miniatura{
+        margin-top: 5%;
+    }
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .footer-div{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+@media screen and (max-width: 1664px) {
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-div{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1336px) {
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-div{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1064px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-div{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px){
+    .img-miniatura{
+        margin-top: 5%;
+    }
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-div{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 426px){
+    .img-miniatura{
+        margin-top: 5%;
+    }
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    }
+}
